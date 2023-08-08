@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="vtiger.practices.TestNgPractices"/>
+      <class name="OrganizationTest.CreateOrganizationWithIndustryTest"/>
+      <class name="vtiger.practices.ReadDataFromCmdTest"/>
+      <class name="vtiger.practices.DataProviderPractices"/>
+      <class name="ContactsTests.CreateContactWithOrganisationTest"/>
+      <class name="vtiger.practices.AsserationPractices"/>
+      <class name="vtiger.practices.RetryAnalysePractices"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
